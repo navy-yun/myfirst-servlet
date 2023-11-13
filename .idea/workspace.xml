@@ -9,29 +9,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fee3f0-e3ef-4337-bf38-54827919d51f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/CurrentTimeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/KoreanServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/QueryStringServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/RequestInfoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/CalcServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/MultiplicationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/memberInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/multiplication.html" afterDir="false" />
+    <list default="true" id="f6fee3f0-e3ef-4337-bf38-54827919d51f" name="Changes" comment="서블릿 기초 공부">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/JoinServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/LogInOutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/WelcomeJoinServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/CookieReadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/DispatcherServlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/DispatcherServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/RequestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/StateStoreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/UserVisitServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/baseball-start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/join.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-visit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/CurrentTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/CurrentTimeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/KoreanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/KoreanServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/QueryStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/QueryStringServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/RequestInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/CalcServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kitri/IdeaProjects/servlet-students/hms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -187,8 +192,18 @@
       <option name="presentableId" value="Default" />
       <updated>1699516074837</updated>
       <workItem from="1699516075856" duration="3794000" />
-      <workItem from="1699574253868" duration="22272000" />
+      <workItem from="1699574253868" duration="22471000" />
+      <workItem from="1699832859305" duration="25477000" />
     </task>
+    <task id="LOCAL-00001" summary="서블릿 기초 공부">
+      <option name="closed" value="true" />
+      <created>1699605402700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699605402700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,5 +219,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="서블릿 기초 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="서블릿 기초 공부" />
   </component>
 </project>
