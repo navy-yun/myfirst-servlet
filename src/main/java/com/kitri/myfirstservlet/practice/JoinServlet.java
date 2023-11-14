@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 
-@WebServlet("/join")
+@WebServlet("/practice/join")
 public class JoinServlet extends HttpServlet {
     static ServletContext sc = null;
     @Override
@@ -28,13 +28,21 @@ public class JoinServlet extends HttpServlet {
         String pwd1 = req.getParameter("pwd1");
         String pwd2 = req.getParameter("pwd2");
 
+        if (id.isEmpty() || pwd1.isEmpty()) {
+            out.print("ID 또는 비밀번호를 입력해주세요.");
+            return;
+        }
+
         if (sc.getAttribute(id) == null) {
             if (pwd1.equals(pwd2)) {
                 // 회원가입
+                sc.setAttribute(id, pwd1);
+                out.print("회원가입이 완료되었습니다.");
+            } else {
+                out.print("비밀번호가 일치하지 않습니다.");
             }
         } else {
-            // 이미 존재하는 회원입니다.
-
+            out.print("이미 존재하는 회원입니다.");
         }
 
     }

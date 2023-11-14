@@ -9,32 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6fee3f0-e3ef-4337-bf38-54827919d51f" name="Changes" comment="서블릿 기초 공부">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/JoinServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/LogInOutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/WelcomeJoinServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/CookieReadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/CookieServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/DispatcherServlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/DispatcherServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/RequestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/StateStoreServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/state/UserVisitServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/baseball-start.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/join.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/practice/loginOut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-visit.html" afterDir="false" />
+    <list default="true" id="f6fee3f0-e3ef-4337-bf38-54827919d51f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/todo/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/todo/TodoListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/todo/todo-list,html.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/CurrentTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/CurrentTimeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/KoreanServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/KoreanServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/QueryStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/QueryStringServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/RequestInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/basic/RequestInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/CalcServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/JoinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/JoinServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/LogInOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/LogInOutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kitri/myfirstservlet/practice/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -59,6 +46,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -69,27 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kitri/IdeaProjects/servlet-students/hms",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kitri/IdeaProjects/servlet-students/hms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kitri\IdeaProjects\myfirst-servlet\src\main\webapp\practice" />
@@ -194,6 +185,7 @@
       <workItem from="1699516075856" duration="3794000" />
       <workItem from="1699574253868" duration="22471000" />
       <workItem from="1699832859305" duration="25477000" />
+      <workItem from="1699959572036" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="서블릿 기초 공부">
       <option name="closed" value="true" />

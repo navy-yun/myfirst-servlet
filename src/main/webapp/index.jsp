@@ -34,6 +34,9 @@
     <br>
     <a href="dispatcher1">상태정보 유지 기술 : 포워드</a>
     <br>
+    <a href="practice/join.html">실습 3 : 회원가입</a>
+    <br>
     <a href="practice/loginOut.html">실습 3 : 로그인/로그아웃</a>
+
 </body>
 </html>
